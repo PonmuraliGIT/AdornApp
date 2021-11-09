@@ -1,0 +1,113 @@
+{% load static %}
+<!-- ========================= FOOTER ========================= -->
+<!-- <footer class="section-footer border-top">
+	<div class="container">
+		<section class="footer-bottom border-top row">
+			<div class="col-md-4">
+				<p class="text-muted"> &copy 2021 Adorn Beauty Enhancements  </p>
+			</div>
+			<div class="col-md-8 text-md-center">
+				<span  class="px-2">info@adornbeautyenhancements.com</span>
+				<span  class="px-2">+470-400-9447</span>
+				<span  class="px-2">LLC,202 S. Main St.Jonesboro, Ga 30236</span>
+			</div>
+			<!-- <div class="col-md-2 text-md-right text-muted">
+				<i class="fab fa-lg fa-cc-visa"></i>
+				<i class="fab fa-lg fa-cc-paypal"></i>
+				<i class="fab fa-lg fa-cc-mastercard"></i>
+			</div> 
+		</section>-->
+	<!-- </div> -->
+	<!-- //container -->
+<!-- </footer> --> 
+<!-- ========================= FOOTER END // ========================= -->
+
+  <!-- ========================= FOOTER ========================= -->
+  <footer class="section-footer border-top  text-light bg-secondary">
+	<div class="container">
+		<section class="footer-top  padding-y">
+			<div class="row">
+				<aside class="col-md-4 col-12">
+					<article class="mr-md-4">
+						<h5 class="title text-white-50">Contact us</h5>
+						<p class="text-light font-weight-bold" >ADORN BEAUTY ENHANCEMENTS </p>
+                       <ul class="list-icon">
+							<li> <i class="icon fa fa-map-marker text-info"> </i>202 S. Main St.Jonesboro, Ga 30236</li>
+							<li> <i class="icon fa fa-envelope text-warning"> </i>info@adornbeautyenhancements.com</li>
+							<li> <i class="icon fa fa-phone text-success"> </i>470-400-9447</li>
+							<li> <i class="icon fa fa-calendar"> </i>Monday - Friday</li>
+							<li> <i class="icon fa fa-clock"> </i>09:00am - 7:00pm</li>
+							<li> <i class="icon fa fa-calendar"> </i>Saturday</li>
+							<li> <i class="icon fa fa-clock"> </i>10:30am - 2s:00pm</li>
+						</ul>
+					</article>
+				</aside>
+				<aside class="col-md col-6">
+					<h5 class="title text-white-50">Useful Links</h5>
+					<ul class="list-unstyled">
+						<li> <a href="#">About Us</a></li>
+						<li> <a href="#">Vision and Mission</a></li>
+						<li> <a href="#">Products</a></li>
+						<li> <a href="#">Services</a></li>
+						<li> <a href="#">Contact us</a></li>
+					</ul>
+				</aside>
+				<aside class="col-md col-6">
+					<h5 class="title text-white-50">Order info</h5>
+					<ul class="list-unstyled">
+					
+						<li> <a href="#">Payments</a></li>
+						<li> <a href="#">Return Policy</a></li>
+						<li> <a href="#">Shipping & Handling</a></li>
+					</ul>
+				</aside>
+				<aside class="col-md-4 col-12">
+					<h5 class="title text-white-50">Newsletter</h5>
+					<p>Sign up to receive all the latest news & offer. </p>
+					
+					<form class="form-inline mb-3">
+						<input type="text " placeholder="Email" class="form-control" name="">
+						<button class="btn ml-2 btn-dark"> Subscribe</button>
+					</form>
+
+					<p class="text-white-50 mb-2">Follow us on social media</p>
+					<div>
+						<a href="#" class="btn btn-icon btn-light"><i class="fab fa-facebook-f"></i></a>
+						<a href="#" class="btn btn-icon btn-light"><i class="fab fa-twitter"></i></a>
+						<a href="#" class="btn btn-icon btn-light"><i class="fab fa-instagram"></i></a>
+						<a href="#" class="btn btn-icon btn-light"><i class="fab fa-youtube"></i></a>
+					</div>
+
+				</aside>
+			</div> <!-- row.// -->
+		</section>	<!-- footer-top.// -->
+
+		<section class="footer-bottom border-top row " >
+			<div class="col-md-6">
+				<p class="mb-0" >
+                    <a href="" style="color:white;">&copy; All Rights Reserved</a>
+					<a href="" style="color:white;">Terms and Conditions</a> | 
+					<a href="" style="color:white;">Privacy</a> | 
+					
+				</p>
+			</div>
+			<div class="col-md-6 text-md-right">
+				<a href="" style="color:white;">Developed By Pentaxial Technologies</a> 
+					
+			</div>
+		</section>
+	</div><!-- //container -->
+</footer>
+<!-- ========================= FOOTER END // ========================= -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$('.thumb a').click(function(e){
+			e.preventDefault();
+			$('.mainImage img').attr('src', $(this).attr("href"));
+		})
+	})
+</script>
+
+</body>
+</html>
