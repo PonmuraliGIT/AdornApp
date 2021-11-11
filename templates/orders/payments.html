@@ -179,7 +179,8 @@
                             method : "POST",
                             headers : {
                                 "Content-type": "application/json",
-                                "x-CSRFToken": csrftoken ,                                
+                                "x-CSRFToken": csrftoken ,      
+                                "dataType": 'json',                          
                             },
                             body: JSON.stringify({
                                 orderID : orderID,
